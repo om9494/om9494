@@ -1,269 +1,402 @@
-# Hi 👋, I'm Om Panchal
+# 👋 Hey, I'm Om Panchal
 
-### 🚀 Computer Engineering Student | Backend Developer | Cloud & DevOps Enthusiast
-
-I'm a **Computer Engineering student at MIT Academy of Engineering, Pune**, passionate about building **scalable backend systems, distributed applications, cloud infrastructure, and intelligent products**.
-
-I enjoy turning complex problems into reliable systems using **Java, Spring Boot, REST APIs, PostgreSQL, AWS, Docker, Kubernetes, and CI/CD**.
-
-🎓 B.Tech Computer Engineering — MITAOE Pune
-💻 Software Development Intern — Parma IT Solutions
-🏆 Smart India Hackathon 2024 — **National Winner**
-🏆 Datathon 2025 — **Winner**
-🏆 Industry Institute Future Summit 2026 — **Winner**
-🧠 **400+ DSA & Competitive Programming Problems Solved**
-
----
-
-## 🧑‍💻 About Me
-
-* 🔭 Currently building **scalable backend and distributed systems**
-* 🌱 Deepening my knowledge of **System Design, Cloud Computing & DevOps**
-* 💻 Strongly interested in **Java, Spring Boot and Backend Engineering**
-* ☁️ Exploring **AWS, Docker, Kubernetes and CI/CD**
-* 🧩 Interested in **concurrency, event-driven architectures and high-scale systems**
-* 🤖 Experienced in building **RAG/LLM-powered applications**
-* 🏆 Team Lead of a **6-member team** at Smart India Hackathon 2024
-* 📚 Solved **400+ DSA & Competitive Programming problems**
-* 🤝 Open to collaborating on **backend, cloud, distributed systems and AI projects**
-
----
-
-# 🛠️ Tech Stack
-
-### 💻 Languages
-
-<p>
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" width="45"/>
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" width="45"/>
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" width="45"/>
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=24&duration=3000&pause=1000&center=true&vCenter=true&width=700&lines=Backend+Engineer+in+the+Making+%F0%9F%9A%80;Java+%7C+Spring+Boot+%7C+AWS+%7C+Docker;I+Design+Systems%2C+Not+Just+APIs;Competitive+Programmer+%7C+Builder+%7C+Problem+Solver" />
 </p>
 
-**Java • C++ • JavaScript**
+<p align="center">
+  <a href="YOUR_LINKEDIN_URL">
+    <img src="https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin"/>
+  </a>
+  <a href="YOUR_PORTFOLIO_URL">
+    <img src="https://img.shields.io/badge/Portfolio-Visit-black?style=for-the-badge&logo=vercel"/>
+  </a>
+  <a href="mailto:om4499panchal@gmail.com">
+    <img src="https://img.shields.io/badge/Email-Let's%20Talk-red?style=for-the-badge&logo=gmail"/>
+  </a>
+</p>
 
 ---
 
-### ⚙️ Backend Development
+## 🧠 A Little About Me
+
+I'm a **Computer Engineering student at MIT Academy of Engineering, Pune**, who enjoys going beyond "making it work" and figuring out **how to make it scale, survive concurrency, and behave correctly under failure**.
+
+My sweet spot is **backend engineering + cloud infrastructure + system design**.
+
+```text
+┌──────────────────────────────────────────────────────────┐
+│                    WHAT I LIKE BUILDING                  │
+├──────────────────────────────────────────────────────────┤
+│                                                          │
+│  ⚙️  Scalable Backend Systems                            │
+│  🔄  Concurrent & Distributed Workflows                  │
+│  ☁️  Cloud-Native Applications                           │
+│  🐳  Containerized Infrastructure                        │
+│  🧩  REST APIs & Microservices                           │
+│  🗄️  Database-Driven Systems                             │
+│  🤖  RAG / LLM Applications                              │
+│  🧠  DSA & Problem Solving                               │
+│                                                          │
+└──────────────────────────────────────────────────────────┘
+```
+
+Currently, I'm particularly interested in **Java/Spring Boot, AWS, distributed systems, concurrency, and system design**.
+
+---
+
+# ⚡ Quick Snapshot
+
+<p align="center">
+
+| 🏆                  | 📊                    | ☁️             | 💻                      |
+| ------------------- | --------------------- | -------------- | ----------------------- |
+| **SIH 2024 Winner** | **400+ DSA Problems** | **AWS**        | **Backend Engineering** |
+| National Level      | LeetCode + Codeforces | Cloud & DevOps | Java / Spring Boot      |
+
+</p>
+
+🎓 **B.Tech Computer Engineering** — MITAOE Pune
+💼 **Software Development Intern** — Parma IT Solutions
+🏆 **Smart India Hackathon 2024 — National Winner**
+🏆 **Datathon 2025 — Winner**
+🏆 **Industry Institute Future Summit 2026 — Winner**
+
+---
+
+# 🔥 What I've Been Building
+
+## 🎬 ShowTime
+
+### `A movie booking system where concurrency actually matters.`
+
+Most booking systems look simple until **multiple users try to book the same seat at exactly the same time**.
+
+That's where things get interesting.
+
+I built ShowTime with a focus on:
+
+```text
+User
+  │
+  ▼
+Seat Selection
+  │
+  ├──────────────► Concurrent Requests
+  │                       │
+  ▼                       ▼
+Booking Service ───► Conflict Handling
+  │
+  ▼
+Payment
+  │
+  ▼
+Razorpay
+  │
+  ▼
+Confirmed Booking
+```
+
+### Engineering Focus
+
+* ⚡ Concurrent multi-user seat selection
+* 🔒 Booking conflict handling
+* 💳 Razorpay payment integration
+* ☕ Java + Spring Boot backend
+* 🗄️ PostgreSQL query optimization
+* ☁️ AWS infrastructure
+* 🔄 CI/CD using AWS CodePipeline
+* 📊 CloudWatch monitoring
+* 🐳 Dockerized deployment
+
+**Stack**
+
+`Java` `Spring Boot` `PostgreSQL` `Razorpay` `AWS` `Docker` `CI/CD`
+
+---
+
+## 💰 Real-Time Crypto Trading & Wallet System
+
+### `Because trading is basically a concurrency problem disguised as finance.`
+
+Built an event-driven backend capable of processing **concurrent trading operations** while maintaining data consistency.
+
+```text
+                  ┌──────────────┐
+Buy Order ───────►│              │
+                  │ Order Engine │──────► PostgreSQL
+Sell Order ──────►│              │
+                  │              │
+Wallet ──────────►│              │
+                  └──────┬───────┘
+                         │
+                    Synchronization
+                         │
+                  Race Condition
+                     Prevention
+```
+
+### What I worked on
+
+* 🧵 Multi-threaded asynchronous order handling
+* 🔐 Thread-safe synchronization
+* ⚡ Event-driven backend architecture
+* 💹 CoinGecko API integration
+* 💳 Razorpay integration
+* 🐳 Docker containerization
+* ☸️ Kubernetes deployment
+* ☁️ AWS deployment
+
+**Stack**
+
+`Java` `Spring Boot` `PostgreSQL` `Docker` `Kubernetes` `AWS`
+
+---
+
+# 🤖 AI × RAG × Real Problems
+
+## Admission Chat Engine
+
+### 🏆 Smart India Hackathon 2024 — National Winner
+
+What started as a problem statement became a **national-level winning project**.
+
+We built an AI-powered admission platform capable of retrieving relevant information from institutional datasets and generating context-aware responses using **RAG + LLMs**.
+
+### Architecture
+
+```text
+                  User
+                   │
+                   ▼
+             React Frontend
+                   │
+                   ▼
+             REST API Layer
+                   │
+                   ▼
+            Retrieval Layer
+                   │
+          ┌────────┴────────┐
+          ▼                 ▼
+     Vector Search      Institutional
+                         Dataset
+          │
+          ▼
+          LLM
+          │
+          ▼
+   Context-Aware Answer
+```
+
+### My Role
+
+👨‍💼 **Team Lead — 6 Members**
+
+I coordinated the team throughout the development lifecycle, from **design → implementation → integration → delivery**.
+
+**Stack**
+
+`React.js` `Node.js` `Express.js` `MongoDB` `RAG` `LLMs` `Vector Retrieval`
+
+---
+
+# 🏗️ How I Think About Engineering
+
+I don't just ask:
+
+> **"Does the API work?"**
+
+I like asking:
+
+```text
+What happens when 10,000 users call it?
+
+What happens when two requests modify the same resource?
+
+What happens when the database is slow?
+
+What happens when payment succeeds but booking fails?
+
+What happens when a service crashes?
+
+Can we observe the failure?
+
+Can we recover safely?
+
+Can we scale it horizontally?
+```
+
+That's why I'm spending a lot of time learning:
+
+**System Design → Distributed Systems → Concurrency → Cloud Architecture → DevOps**
+
+---
+
+# 🛠️ My Engineering Toolbox
+
+### Backend
 
 <p>
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/spring/spring-original.svg" width="45"/>
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" width="50"/>
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/spring/spring-original.svg" width="50"/>
 <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" width="55"/>
 <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original-wordmark.svg" width="55"/>
 </p>
 
-**Spring Boot • Node.js • Express.js • REST APIs • Microservices • System Design**
+`Java` `Spring Boot` `Node.js` `Express.js` `REST APIs` `Microservices`
 
----
-
-### 🌐 Frontend
+### Databases
 
 <p>
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" width="45"/>
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" width="45"/>
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg" width="45"/>
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original.svg" width="50"/>
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original.svg" width="50"/>
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original.svg" width="50"/>
 </p>
 
-**React.js • HTML5 • CSS3 • REST API Integration • Responsive Web Design**
+`PostgreSQL` `MySQL` `MongoDB`
 
----
-
-### ☁️ Cloud & DevOps
+### Cloud & DevOps
 
 <p>
 <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" width="65"/>
 <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" width="55"/>
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/kubernetes/kubernetes-original.svg" width="45"/>
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/jenkins/jenkins-original.svg" width="45"/>
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/kubernetes/kubernetes-original.svg" width="50"/>
+<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/jenkins/jenkins-original.svg" width="50"/>
 </p>
 
-**AWS • Docker • Kubernetes • Jenkins • CI/CD**
+`AWS` `Docker` `Kubernetes` `Jenkins` `CI/CD`
 
-**AWS Services:**
-EC2 • S3 • RDS • VPC • SQS • Lambda • CloudFront • Elastic Beanstalk • CloudFormation • CodePipeline • CodeBuild • CodeDeploy • CloudWatch • SNS • IAM
+### Frontend
 
----
+`React.js` `JavaScript` `HTML5` `CSS3`
 
-### 🗄️ Databases
+### Fundamentals
 
-<p>
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original.svg" width="45"/>
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original.svg" width="45"/>
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original.svg" width="45"/>
-</p>
-
-**PostgreSQL • MySQL • MongoDB**
+`DSA` `OOP` `DBMS` `Operating Systems` `Computer Networks` `System Design`
 
 ---
 
-### 🧠 Core Computer Science
+# ☁️ AWS Playground
 
-**Data Structures & Algorithms**
-**Object-Oriented Programming**
-**Operating Systems**
-**DBMS**
-**Computer Networks**
-**System Design**
+I've worked with:
 
----
+```text
+EC2          S3             RDS
+VPC          SQS            Lambda
+CloudFront   Elastic Beanstalk
+CloudFormation
+CodePipeline CodeBuild      CodeDeploy
+CloudWatch   SNS            IAM
+```
 
-### 🔧 Tools
-
-<p>
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg" width="45"/>
-<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/github/github-original.svg" width="45"/>
-</p>
-
-**Git • GitHub • Postman**
+I'm particularly interested in understanding **why a particular AWS service belongs in an architecture**, rather than simply learning service names.
 
 ---
 
-# 🚀 Featured Projects
+# 🧩 Problem Solving
 
-## 🎬 ShowTime — Movie Ticket Booking Platform
+### Competitive Programming
 
-A scalable movie ticket booking platform designed to handle **concurrent multi-user seat selection and online payments**.
+```text
+┌──────────────────────────────┐
+│       PROBLEM SOLVING        │
+├──────────────────────────────┤
+│                              │
+│   400+ Problems Solved      │
+│                              │
+│   ⭐ CodeChef — 3 Star       │
+│   ⭐ Codeforces — 1200       │
+│                              │
+│   DSA • Algorithms • CP      │
+│                              │
+└──────────────────────────────┘
+```
 
-### Highlights
-
-* ⚡ Designed workflows for **concurrent seat selection**
-* 🔐 Implemented mechanisms to handle **seat booking conflicts**
-* 💳 Integrated **Razorpay payment processing**
-* ☕ Built backend REST APIs using **Java & Spring Boot**
-* 🗄️ Optimized **PostgreSQL queries**
-* 🛡️ Applied secure development practices to prevent injection vulnerabilities
-* ☁️ Deployed infrastructure on **AWS**
-* 🔄 Implemented **CI/CD using AWS CodePipeline**
-* 📊 Added **CloudWatch monitoring**
-
-**Tech:** `Java` `Spring Boot` `PostgreSQL` `REST APIs` `Razorpay` `AWS` `Docker` `CI/CD`
-
----
-
-## 💰 Real-Time Cryptocurrency Trading & Wallet System
-
-An event-driven backend designed to handle **concurrent cryptocurrency trading and wallet operations**.
-
-### Highlights
-
-* ⚡ Built an **event-driven and highly scalable backend**
-* 🧵 Implemented **multi-threaded asynchronous order processing**
-* 🔒 Used **thread-safe synchronization** to prevent race conditions
-* 💹 Integrated **CoinGecko API**
-* 💳 Integrated **Razorpay**
-* 🐳 Containerized using **Docker**
-* ☸️ Deployed using **Kubernetes**
-* ☁️ Hosted on **AWS**
-
-**Tech:** `Java` `Spring Boot` `PostgreSQL` `REST APIs` `CoinGecko` `Razorpay` `Docker` `Kubernetes` `AWS`
+I enjoy problems where the obvious solution works for 10 inputs but completely falls apart at **10⁵**.
 
 ---
 
-## 🤖 Admission Chat Engine — RAG & LLM
+# 🏆 Beyond Code
 
-### 🏆 Smart India Hackathon 2024 — National Winner
-
-An AI-powered admission platform using **RAG and LLMs** to provide context-aware answers from institutional datasets.
-
-### Highlights
-
-* 🧠 Implemented **Retrieval-Augmented Generation**
-* 🔎 Built context-aware **vector retrieval**
-* ⚛️ Developed interactive UI using **React.js**
-* 🔌 Built backend services using **Node.js & Express.js**
-* 🗄️ Used **MongoDB**
-* 👥 Led a **6-member cross-functional team**
-* 🏆 Won the **national-level Smart India Hackathon 2024**
-
-**Tech:** `React.js` `JavaScript` `Node.js` `Express.js` `MongoDB` `RAG` `LLMs` `Vector Retrieval`
+| Achievement                                  | What it means                  |
+| -------------------------------------------- | ------------------------------ |
+| 🥇 **Smart India Hackathon 2024**            | National Winner                |
+| 🥇 **Datathon 2025**                         | Winner                         |
+| 🥇 **Industry Institute Future Summit 2026** | Winner                         |
+| 🏅 **GDG Hackathon**                         | Industry Project Award         |
+| 🎓 **Reliance Scholar**                      | 4-Year Engineering Scholarship |
+| 🎓 **Super 30 Scholar**                      | MITAOE                         |
 
 ---
 
 # 💼 Experience
 
-### Software Development Intern — Parma IT Solutions
+### Software Development Intern
 
-**June 2026 – August 2026**
+**Parma IT Solutions · June 2026 – August 2026**
 
-Worked on the backend of a **Pharmacy ERP system** built using the MERN stack.
+Worked on the backend of a production-facing **Pharmacy ERP system**.
 
-* Developed REST APIs using **Node.js & Express.js**
-* Managed application data using **MongoDB**
-* Designed and executed functional API test suites using **Postman**
-* Improved test coverage and helped identify regressions before deployment
-* Collaborated with the development team using **Git**
-
-**Tech:** `Node.js` `Express.js` `MongoDB` `REST APIs` `Postman` `Git`
+`Node.js` `Express.js` `MongoDB` `REST APIs` `Postman` `Git`
 
 ---
 
-# 🏆 Achievements
+# 📚 Currently Learning
 
-🏆 **Winner — Smart India Hackathon 2024 (National Level)**
-🏆 **Winner — Datathon 2025**
-🏆 **Winner — Industry Institute Future Summit 2026**
-🏆 **Industry Project Award — GDG Hackathon**
-🎓 **Reliance Scholar — 4-Year Engineering Scholarship**
-🎓 **Super 30 Scholar — MITAOE**
-
----
-
-# 🧩 Competitive Programming
-
-I actively practice **Data Structures, Algorithms and Competitive Programming**.
-
-* 🟢 **400+ problems solved**
-* ⭐ **3-Star CodeChef**
-* ⭐ **1200 Codeforces Rating**
-* Strong focus on **problem solving, complexity analysis and algorithmic thinking**
-
----
-
-# 📜 Certifications
-
-* ☁️ **AWS Cloud Practitioner** — Amazon Web Services, 2026
-* 🐧 **Red Hat Linux Fundamentals** — Red Hat, 2024
+```text
+                    ┌───────────────────┐
+                    │   SYSTEM DESIGN   │
+                    └─────────┬─────────┘
+                              │
+               ┌──────────────┼──────────────┐
+               ▼              ▼              ▼
+          Distributed     Concurrency      Scalability
+            Systems
+               │              │              │
+               └──────────────┼──────────────┘
+                              ▼
+                         CLOUD / AWS
+                              │
+                              ▼
+                       PRODUCTION SYSTEMS
+```
 
 ---
 
-# 📊 GitHub Stats
+# 📊 GitHub Activity
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=YOUR_GITHUB_USERNAME&show_icons=true&theme=tokyonight&hide_border=true" height="165"/>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=YOUR_GITHUB_USERNAME&theme=tokyonight&hide_border=true" height="165"/>
+  <img src="https://github-readme-stats.vercel.app/api?username=YOUR_GITHUB_USERNAME&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github" height="180"/>
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=YOUR_GITHUB_USERNAME&theme=tokyonight&hide_border=true" height="180"/>
 </p>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_GITHUB_USERNAME&layout=compact&theme=tokyonight&hide_border=true" height="165"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_GITHUB_USERNAME&layout=compact&theme=tokyonight&hide_border=true" />
 </p>
 
 ---
 
-# 📈 Contribution Graph
+# 🤝 Let's Build Something
+
+I'm always interested in conversations around:
+
+**Backend Engineering · System Design · Cloud · DevOps · Distributed Systems · AI · Open Source**
+
+If you're building something interesting, let's connect.
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=YOUR_GITHUB_USERNAME&theme=tokyo-night&hide_border=true"/>
-</p>
-
----
-
-# 🤝 Connect With Me
-
-<p align="left">
 
 <a href="YOUR_LINKEDIN_URL">
-<img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
-</a>
-
-<a href="YOUR_GITHUB_URL">
-<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
+<img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
 </a>
 
 <a href="YOUR_PORTFOLIO_URL">
-<img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white"/>
+<img src="https://img.shields.io/badge/Portfolio-Explore-000000?style=for-the-badge&logo=vercel&logoColor=white"/>
 </a>
 
 <a href="mailto:om4499panchal@gmail.com">
-<img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
+<img src="https://img.shields.io/badge/Gmail-Contact-D14836?style=for-the-badge&logo=gmail&logoColor=white"/>
 </a>
 
 </p>
@@ -271,9 +404,9 @@ I actively practice **Data Structures, Algorithms and Competitive Programming**.
 ---
 
 <p align="center">
-  <b>💡 Building scalable systems. Solving hard problems. Learning every day.</b>
-</p>
 
-<p align="center">
-  ⭐ If you find my projects interesting, consider starring the repositories!
+### `Build → Break → Understand → Scale → Repeat.`
+
+⭐ **Thanks for visiting my profile!**
+
 </p>
