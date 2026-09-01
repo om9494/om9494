@@ -1,4 +1,9 @@
 <p align="center">
+  <img src="https://user-images.githubusercontent.com/74038190/212747107-5b654ba5-31c6-4366-b42b-51b822e9bc52.gif" width="150" />
+  <img src="./running-bunny.gif" width="150" />
+</p>
+
+<p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:2E9EF7,100:8E5EF9&height=160&section=header&text=Om%20Panchal&fontSize=46&fontColor=ffffff&animation=fadeIn&fontAlignY=38" alt="Header Banner" />
 </p>
 
@@ -17,6 +22,10 @@
 <br/>
 
 ## About Me
+
+<p align="center">
+  <img src="./my-brain.png" width="260" />
+</p>
 
 - 🔭 Currently building **[CashCrunch](https://github.com/om9494/Cash-Crunch.git)**
 - 🌱 Learning **Angular, modern frontend frameworks & scalable web app development**
@@ -59,5 +68,5 @@
 <br/>
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:8E5EF9,100:2E9EF7&height=100&section=footer" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:8E5EF9,100:2E9EF7&height=120&section=footer&text=Keep%20Calm%20and%20Code%20On&fontSize=22&fontColor=ffffff&animation=fadeIn&fontAlignY=75" />
 </p>
