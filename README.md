@@ -5,6 +5,10 @@
 </p>
 
 <p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:2E9EF7,100:8E5EF9&height=180&section=header&text=Welcome%20To%20My%20Profile&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=38" alt="Header Banner" />
+</p>
+
+<p align="center">
   <a href="https://om-panchal-portfolio.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white" /></a>
   <a href="https://www.linkedin.com/in/om-panchal-b8037a297"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
   <a href="https://leetcode.com/u/om_99/"><img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" /></a>
@@ -20,6 +24,8 @@
 
 ### 🚀 About Me
 
+<img align="right" width="300" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/spring/spring-original.svg" alt="spring gif" />
+
 - 🔭 Currently building **[CashCrunch](https://github.com/om9494/Cash-Crunch.git)**
 - 🌱 Currently learning **Angular, Modern Frontend Frameworks & Scalable Web Application Development**
 - 👯 Looking to collaborate on **[BookMyShow Clone](https://github.com/om9494/Book-My-Show-Full-Architecture.git)**
@@ -29,18 +35,20 @@
 - 📫 Reach me at **panchalom027@gmail.com**
 - ⚡ Fun fact: **I enjoy turning complex backend problems into clean, scalable architectures**
 
+<br clear="right"/>
+
 ---
 
 ### 🛠️ Languages & Tools
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=java,spring,nodejs,express,js,react,angular,vue,html,css,tailwind,bootstrap&theme=dark" />
+  <img src="https://skillicons.dev/icons?i=java,spring,nodejs,express,js,react,angular,vue,html,css,tailwind,bootstrap" />
 </p>
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=mysql,postgres,mongodb,redis,sqlite,docker,kubernetes,aws,azure,gcp,nginx,jenkins&theme=dark" />
+  <img src="https://skillicons.dev/icons?i=mysql,postgres,mongodb,redis,sqlite,docker,kubernetes,aws,azure,gcp,nginx,jenkins" />
 </p>
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=git,github,postman,figma,linux,bash,c,cpp,python,kafka,vscode,idea&theme=dark" />
+  <img src="https://skillicons.dev/icons?i=git,github,postman,figma,linux,bash,c,cpp,python,kafka,vscode,idea" />
 </p>
 
 ---
@@ -48,12 +56,12 @@
 ### 📊 GitHub Stats
 
 <p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=om9494&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=om9494&layout=compact&theme=tokyonight&hide_border=true" />
+  <img height="165" src="https://github-stats-extended.vercel.app/api?username=om9494&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="GitHub Stats" />
+  <img height="165" src="https://github-stats-extended.vercel.app/api/top-langs/?username=om9494&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=om9494&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
+  <img src="https://streak-stats.demolab.com/?user=om9494&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
 </p>
 
 <p align="center">
@@ -65,7 +73,7 @@
 ### 🏆 GitHub Trophies
 
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=om9494&theme=tokyonight&no-frame=true&row=1&column=7" />
+  <img src="https://github-profile-trophy.vercel.app/?username=om9494&theme=tokyonight&no-frame=true&row=1&column=7" alt="Trophies" />
 </p>
 
 ---
@@ -76,28 +84,22 @@
   <img src="https://raw.githubusercontent.com/om9494/om9494/output/github-contribution-grid-snake-dark.svg" alt="snake animation" />
 </p>
 
-> **Note:** The snake animation needs a one-time GitHub Actions setup — see the "Optional Enhancements" section below.
+> ⚠️ This image will 404 until you add the GitHub Actions workflow below to your `om9494/om9494` repo — it generates that SVG automatically every day.
 
 ---
 
 ### 🤝 Connect With Me
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/om-panchal-b8037a297" target="_blank">
-    <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="LinkedIn" height="35" width="45" />
-  </a>
-  <a href="https://leetcode.com/u/om_99/" target="_blank">
-    <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/leet-code.svg" alt="LeetCode" height="35" width="45" />
-  </a>
-  <a href="mailto:panchalom027@gmail.com" target="_blank">
-    <img src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/gmail.svg" alt="Gmail" height="35" width="45" />
-  </a>
+  <a href="https://www.linkedin.com/in/om-panchal-b8037a297" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+  <a href="https://leetcode.com/u/om_99/" target="_blank"><img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black" /></a>
+  <a href="mailto:panchalom027@gmail.com" target="_blank"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
 </p>
 
 ---
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=2E9EF7&height=100&section=footer" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:8E5EF9,100:2E9EF7&height=100&section=footer" />
 </p>
 
 <h3 align="center">💡 "Code is like humor. When you have to explain it, it's bad."</h3>
